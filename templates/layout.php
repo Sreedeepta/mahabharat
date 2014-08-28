@@ -24,25 +24,25 @@
 	</div>
 	<div class="tabstrip">
 		<div class="row">
-			<a class="tabspan-2 tabs" href="#">
-				<span class="icon star"></span>
-				<span>Featured</span>
+			<a class="tabspan-2 tabs" href="<?php echo URL::site() ?>">
+				<span class="fa fa-home fa-2x"></span>
+				<span>Home</span>
+			</a>
+			<a class="tabspan-2 tabs" href="<?php echo URL::site('/film') ?>">
+				<span class="fa fa-film fa-2x"></span>
+				<span>List</span>
 			</a>
 			<a class="tabspan-2 tabs" href="#">
-				<span class="icon profile"></span>
-				<span>Profile</span>
-			</a>
-			<a class="tabspan-2 tabs" href="#">
-				<span class="icon search"></span>
+				<span class="fa fa-search fa-2x"></span>
 				<span>Search</span>
 			</a>
 			<a class="tabspan-2 tabs" href="#">
-				<span class="icon more"></span>
-				<span>More</span>
+				<span class="fa fa-facebook fa-2x"></span>
+				<span>Facebook</span>
 			</a>
 			<a class="tabspan-2 tabs" href="#">
-				<span class="icon more"></span>
-				<span>More</span>
+				<span class="fa fa-twitter fa-2x"></span>
+				<span>Twitter</span>
 			</a>
 		</div>
 	</div>

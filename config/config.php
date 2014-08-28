@@ -21,9 +21,21 @@ return array(
     'bono.providers' => array(
         '\\Norm\\Provider\\NormProvider' => array(
             'datasources' => array(
-                'mongo' => array(
-                    'driver' => '\\Norm\\Connection\\MongoConnection',
-                    'database' => 'mahabharat',
+                // 'mongo' => array(
+                //     'driver' => '\\Norm\\Connection\\MongoConnection',
+                //     'database' => 'mahabharat',
+                // ),
+                //<-- SQL Connection-->
+                'mysql' => array(
+                    'driver'   => '\\App\\Connection\\PDOConnection',
+                    'dialect'  => '\\App\\Dialect\\MySQLDialect',
+                    'prefix'   => 'mysql',
+                    'dsn'      => 'mysql',
+                    'dbname'   => 'mahabharat',
+                    'host'     => 'localhost',
+                    // 'host'     => '192.168.1.10',
+                    'username' => 'root',
+                    'password' => 'password',
                 ),
             ),
 
