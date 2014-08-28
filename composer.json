@@ -1,0 +1,23 @@
+{
+    "name": "xinix-technology/bono-arch",
+    "description": "Bono Archetype",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ganesha",
+            "email": "reekoheek@gmail.com"
+        }
+    ],
+    "require": {
+        "xinix-technology/bono": "dev-master",
+        "xinix-technology/norm": "dev-master",
+        "xinix-technology/migrate": "dev-master",
+        "xinix-technology/naked-theme": "dev-master",
+        "reekoheek/bono-auth": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "App": "src/"
+        }
+    }
+}
