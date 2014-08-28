@@ -10,8 +10,8 @@
 	<div>
 		<nav class="navbar-menu">
 		   <div class="wrapper">
-		   	<img style="width:195px; margin-left:20px;>" src="<?php echo URL::base('vendor/img/mahabharat-logo.jpg') ?>">
-		      <a href="#" class="brand"><?php echo f('page.title', 'Bono Application') ?></a>
+		   	<img src="<?php echo URL::base('vendor/img/mahabharat-logo.jpg') ?>">
+		      <a href="#" class="brand"><span class="menu"><?php echo f('page.title', 'Bono Application') ?></span></a>
 		      <section class="topbar pull-right">
 		         <!-- <ul class="menu">
 		            <li class="active"><a href="#">Menu 1</a></li>
