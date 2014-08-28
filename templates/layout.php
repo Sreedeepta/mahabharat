@@ -1,61 +1,57 @@
+<?php 
+// var_dump($body);
+// exit; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Mahabharat Download and Streaming</title>
+	<link type="image/x-icon" href="<?php echo URL::base('vendor/img/icon-mahabharat.ico') ?>" rel="Shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="<?php echo Theme::base('vendor/css/font-awesome/font-awesome.min.css') ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo Theme::base('vendor/css/naked.min.css') ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo Theme::base('vendor/css/style.css') ?>">
 </head>
 <body>
 	<div>
 		<nav class="navbar-menu">
-		   <div class="wrapper">
-		   	<img src="<?php echo URL::base('vendor/img/mahabharat-logo.jpg') ?>">
-		      <a href="#" class="brand"><span class="menu"><?php echo f('page.title', 'Bono Application') ?></span></a>
-		      <section class="topbar pull-right">
-		         <!-- <ul class="menu">
-		            <li class="active"><a href="#">Menu 1</a></li>
-		            <li class="divide"></li>
-		            <li><a href="#">Menu 2</a></li>
-		            <li class="divide"></li>
-		            <li class="collapsible">
-		               <a href="#">Menu 3</a>
-		               <ul>
-		                  <li><a href="#">Web Design</a></li>
-		                  <li><a href="#">Web Development</a></li>
-		                  <li class="divider"></li>
-		                  <li><a href="#">Illustrations</a></li>
-		               </ul>
-		            </li>
-		         </ul> -->
-		      </section>
-		   </div>
+			<div class="wrapper">
+				<img src="<?php echo URL::base('vendor/img/mahabharat-logo.jpg') ?>">
+				<a href="<?php echo URL::site() ?>" class="brand"><span class="menu"><?php echo f('page.title', 'Bono Application') ?></span></a>
+				<section class="topbar pull-right"></section>
+			</div>
 		</nav>
 	</div>
 	<div class="tabstrip">
-	   <div class="row">
-	      <a class="tabspan-2 tabs" href="#">
-	         <!-- <span class="icon star"></span> -->
-	         <span>Featured</span>
-	      </a>
-	      <a class="tabspan-2 tabs" href="#">
-	         <!-- <span class="icon profile"></span> -->
-	         <span>Profile</span>
-	      </a>
-	      <a class="tabspan-2 tabs" href="#">
-	         <!-- <span class="icon search"></span> -->
-	         <span>Search</span>
-	      </a>
-	      <a class="tabspan-2 tabs" href="#">
-	         <!-- <span class="icon more"></span> -->
-	         <span>More</span>
-	      </a>
-	      <a class="tabspan-2 tabs" href="#">
-	         <!-- <span class="icon more"></span> -->
-	         <span>More</span>
-	      </a>
-	   </div>
+		<div class="row">
+			<a class="tabspan-2 tabs" href="#">
+				<span class="icon star"></span>
+				<span>Featured</span>
+			</a>
+			<a class="tabspan-2 tabs" href="#">
+				<span class="icon profile"></span>
+				<span>Profile</span>
+			</a>
+			<a class="tabspan-2 tabs" href="#">
+				<span class="icon search"></span>
+				<span>Search</span>
+			</a>
+			<a class="tabspan-2 tabs" href="#">
+				<span class="icon more"></span>
+				<span>More</span>
+			</a>
+			<a class="tabspan-2 tabs" href="#">
+				<span class="icon more"></span>
+				<span>More</span>
+			</a>
+		</div>
 	</div>
+	<main>
+        <div id="main-content">
+            <?php echo f('notification.show') ?>
+            <?php echo $body ?>
+        </div>
+    </main>
 	
 </body>
 </html>
