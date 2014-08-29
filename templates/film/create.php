@@ -1,26 +1,24 @@
-<div class="list-view">
-	<h2>Create <?php echo f('controller.name') ?></h2>
+<h2>Create <?php echo f('controller.name') ?></h2>
 
-	<form method="post">
+<form method="post">
 
-	    <?php foreach(f('app')->controller->schema() as $name => $field): ?>
+    <?php foreach(f('app')->controller->schema() as $name => $field): ?>
 
-	    <?php if ($field['hidden']) continue ?>
+    <?php if ($field['hidden']) continue ?>
 
-	    <div>
+    <div>
 
-	        <?php echo $field->label() ?>
+        <?php echo $field->label() ?>
 
-	        <?php echo $field->format('input', @$entry[$name]) ?>
+        <?php echo $field->format('input', @$entry[$name]) ?>
 
-	    </div>
+    </div>
 
-	    <?php endforeach ?>
+    <?php endforeach ?>
 
-	    <div class="command-bar">
-	        <input type="submit">
-	        <a href="<?php echo f('controller.url') ?>">List</a>
-	    </div>
+    <div class="command-bar">
+        <input type="submit">
+        <a href="<?php echo f('controller.url') ?>">List</a>
+    </div>
 
-	</form>
-</div>
+</form>

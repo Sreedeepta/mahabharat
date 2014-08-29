@@ -48,8 +48,10 @@
 	</div>
 	<main>
         <div id="main-content">
-            <?php echo f('notification.show') ?>
-            <?php echo $body ?>
+	        <div class="list-view">
+	            <?php echo f('notification.show') ?>
+	            <?php echo $body ?>
+			</div>
         </div>
     </main>
 	

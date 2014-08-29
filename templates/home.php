@@ -1,4 +1,2 @@
 <?php  ?>
-<div class="list-view">
-	home.php
-</div>
+home.php
