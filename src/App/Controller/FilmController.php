@@ -45,6 +45,11 @@ class FilmController extends BaseController
         if ($this->request->isPost()) {
             try {
                 $entry = array_merge($entry, $this->request->post());
+                $entry = array(
+                    'episode' => $entry['episode'],
+                    'movie'   => 'mahabharata antv 2014 episode '.$entry['episode'].'.mp4',
+                    'status' => $entry['status'],
+                );
                 // var_dump($entry);
                 // exit;
                 $model = $this->collection->newInstance();
@@ -71,7 +76,7 @@ class FilmController extends BaseController
 
                 // $this->flashNow('error', $e);
             }
-            $this->redirect(URL::site('/film'));
+            $this->redirect($this->getRedirectUri());
 
         }
 

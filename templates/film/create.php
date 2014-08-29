@@ -1,20 +1,12 @@
-<h2>Create <?php echo f('controller.name') ?></h2>
+<?php
+use \App\Component\Form;
+$form = Form::create()->of($entry);
+?>
+<h2>Add <?php echo f('controller.name') ?></h2>
 
 <form method="post">
 
-    <?php foreach(f('app')->controller->schema() as $name => $field): ?>
-
-    <?php if ($field['hidden']) continue ?>
-
-    <div>
-
-        <?php echo $field->label() ?>
-
-        <?php echo $field->format('input', @$entry[$name]) ?>
-
-    </div>
-
-    <?php endforeach ?>
+    <?php echo $form->formatInput('episode') ?>
 
     <div class="command-bar">
         <input type="submit">
