@@ -28,7 +28,7 @@
 				<p class="fa fa-home fa-2x"></p>
 				<span>Home</span>
 			</a>
-			<a class="tabspan-2 tabs" href="<?php echo URL::site('/film') ?>">
+			<a class="tabspan-2 tabs" href="<?php echo URL::site('/episode') ?>">
 				<p class="fa fa-film fa-2x"></p>
 				<span>List</span>
 			</a>

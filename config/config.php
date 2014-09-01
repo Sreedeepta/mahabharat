@@ -62,7 +62,7 @@ return array(
             'default' => '\\App\\Controller\\BaseController',
             'mapping' => array(
                 '/user' => null,
-                '/film' => '\\App\\Controller\\FilmController',
+                '/episode' => '\\App\\Controller\\EpisodeController',
             ),
         ),
         '\\Bono\\Middleware\\ContentNegotiatorMiddleware' => array(

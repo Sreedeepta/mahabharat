@@ -5,7 +5,7 @@ namespace App\Controller;
 use \Norm\Norm;
 use \Bono\Helper\URL;
 
-class FilmController extends BaseController
+class EpisodeController extends BaseController
 {
     protected $collection;
 
