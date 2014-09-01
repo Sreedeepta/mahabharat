@@ -50,8 +50,6 @@ class FilmController extends BaseController
                     'movie'   => 'mahabharata antv 2014 episode '.$entry['episode'].'.mp4',
                     'status' => $entry['status'],
                 );
-                // var_dump($entry);
-                // exit;
                 $model = $this->collection->newInstance();
                 $result = $model->set($entry)->save();
 

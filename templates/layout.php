@@ -25,23 +25,23 @@
 	<div class="tabstrip">
 		<div class="row">
 			<a class="tabspan-2 tabs" href="<?php echo URL::site() ?>">
-				<span class="fa fa-home fa-2x"></span>
+				<p class="fa fa-home fa-2x"></p>
 				<span>Home</span>
 			</a>
 			<a class="tabspan-2 tabs" href="<?php echo URL::site('/film') ?>">
-				<span class="fa fa-film fa-2x"></span>
+				<p class="fa fa-film fa-2x"></p>
 				<span>List</span>
 			</a>
 			<a class="tabspan-2 tabs" href="#">
-				<span class="fa fa-search fa-2x"></span>
+				<p class="fa fa-search fa-2x"></p>
 				<span>Search</span>
 			</a>
-			<a class="tabspan-2 tabs" href="#">
-				<span class="fa fa-facebook fa-2x"></span>
+			<a class="tabspan-2 tabs" href="https://www.facebook.com/groups/mahabharataantv/">
+				<p class="fa fa-facebook fa-2x"></p>
 				<span>Facebook</span>
 			</a>
 			<a class="tabspan-2 tabs" href="#">
-				<span class="fa fa-twitter fa-2x"></span>
+				<p class="fa fa-twitter fa-2x"></p>
 				<span>Twitter</span>
 			</a>
 		</div>
