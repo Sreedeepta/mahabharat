@@ -1,11 +1,20 @@
-<link rel="stylesheet" type="text/css" href="<?php echo Theme::base('vendor/css/font-awesome/font-awesome.min.css') ?>">
-mahabharat
-==========
-<h3 align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="www/vendor/css/font-awesome/font-awesome.min.css">
+</head>
+<body>
+	mahabharat
+	==========
+	<h3 align="center">
 
-Iam Mahabharat Lover
+	Iam Mahabharat Lover
 
-And
+	And
 
-I made this Application by <span class="fa fa-heart"></span>
-</h3>
+	I made this Application by <span class="fa fa-heart"></span>
+	</h3>
+</body>
+</html>
