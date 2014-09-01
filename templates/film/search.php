@@ -4,7 +4,7 @@ $films = Norm::factory('Film')->find(array('status' => 1))->toArray();
 <h2>List <?php echo f('controller.name') ?></h2>
 
 <div class="command-bar">
-    <a href="<?php echo f('controller.url', '/null/create') ?>">Add Episode</a>
+    <a href="<?php echo f('controller.url', '/null/create') ?>"><span class="fa fa-plus"></span> Add Episode</a>
 </div>
 
 <div class="wrapper">

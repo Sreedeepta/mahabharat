@@ -36,11 +36,11 @@
 				<p class="fa fa-search fa-2x"></p>
 				<span>Search</span>
 			</a>
-			<a class="tabspan-2 tabs" href="https://www.facebook.com/groups/mahabharataantv/">
+			<a class="tabspan-2 tabs" target="_blank" href="https://www.facebook.com/groups/mahabharataantv/">
 				<p class="fa fa-facebook fa-2x"></p>
 				<span>Facebook</span>
 			</a>
-			<a class="tabspan-2 tabs" href="#">
+			<a class="tabspan-2 tabs" target="_blank" href="https://twitter.com/Mahabarata_ANTV">
 				<p class="fa fa-twitter fa-2x"></p>
 				<span>Twitter</span>
 			</a>
