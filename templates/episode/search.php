@@ -13,7 +13,7 @@ $films = Norm::factory('Episode')->find(array('status' => 1))->toArray();
 			<ul class="list-group">
 				<?php foreach ($films as $key => $film): ?>
 				<li class="plain">
-					<a href="<?php echo URL::Site('film/'.$film['$id']) ?>">
+					<a href="<?php echo URL::Site('episode/'.$film['$id']) ?>">
 						<div class="span-2">
 							<span class="fa fa-film">&nbsp;&nbsp;&nbsp;</span><span>Episode <?php echo $film['episode'] ?></span>
 						</div>
